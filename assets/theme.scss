@@ -65,3 +65,12 @@ $customSemiBold: "Ambit-SemiBold", sans-serif;
 $customBold: "Ambit-Bold", sans-serif;
 $featuredMediumItalic: "QuincyCF-MediumItalic", sans-serif;
 $customQuincy: "QuincyCF-Regular", sans-serif;
+
+
+h2 {
+    font-family: $custom-font;
+}
+
+.collection h2 {
+    font-family: $custom-font;
+}
