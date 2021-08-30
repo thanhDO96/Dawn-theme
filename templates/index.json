@@ -52,20 +52,20 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Chelsea In Egg Shell Has Arrived"
+            "heading": "Image with text"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Just in Time For The Spring Babies<\/p>"
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/il-tutto-chelsea-nursery-reclining-glider-chair-in-egg-shell"
+            "button_label": "Button label",
+            "button_link": ""
           }
         }
       },
@@ -79,11 +79,51 @@
         "color_scheme": "background-1",
         "layout": "image_first"
       }
+    },
+    "1630304619391e694d": {
+      "type": "image-banner",
+      "blocks": {
+        "1630304619391e694d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner"
+          }
+        },
+        "1630304619391e694d-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "1630304619391e694d-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1630304619391e694d-0",
+        "1630304619391e694d-1",
+        "1630304619391e694d-2"
+      ],
+      "settings": {
+        "desktop_text_box_position": "center",
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": false
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
-    "image_text"
+    "image_text",
+    "1630304619391e694d"
   ]
 }
